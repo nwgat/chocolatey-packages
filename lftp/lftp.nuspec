@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>lftp</id>
+    <title>lftp</title>
+    <version>4.6.3</version>
+    <authors>Alexander V. Lukyanov</authors>
+    <owners>nwgat</owners>
+    <summary>LFTP is a sophisticated file transfer program with command line interface</summary>
+    <description>LFTP is a sophisticated file transfer program with command line interface. It supports FTP, HTTP, FISH, SFTP, HTTPS and FTPS protocols. GNU Readline library is used for input.
+Every operation in lftp is reliable, that is any non-fatal error is handled and the operation is retried automatically. So if downloading breaks, it will be restarted from the point automatically. Even if ftp server does not support REST command, lftp will try to retrieve the file from the very beginning until the file is transferred completely. This is useful for dynamic-ip machines which change their IP addresses quite often, and for sites with very bad internet connectivity. 
+    </description>
+    <projectUrl>http://lftp.yar.ru/</projectUrl>
+    <packageSourceUrl>http://lftp.nwgat.ninja/lftp-4.6.3a/lftp-4.6.3a.win32-openssl.7z</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+
+    <docsUrl></docsUrl>
+    <mailingListUrl>http://lftp.yar.ru/list.html</mailingListUrl>
+    <bugTrackerUrl>https://github.com/lavv17/lftp/issues</bugTrackerUrl>-->
+    <tags>lftp ftp sftp ssh fish ftps</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://lftp.yar.ru/lftp1.png</iconUrl>-->
+    <releaseNotes>Version 4.6.3 - 2015-06-17
+new mirror setting mirror:overwrite and options --overwrite/--no-overwrite.
+new mirror option --upload-older.
+new mirror option --recursion={always,never,missing,newer}.
+try to download zero sized files as they may be non-empty.
+torrent: new options --only-new, --only-incomplete.
+torrent: fixed endless loop in FD deallocation.
+fixed a memleak when parsing a directory listing with special files.
+fixed one byte buffer overflow in cls.
+fixed cmd:fail-exit description in the man page.
+fixed large stack usage when parsing fish directory listings.</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

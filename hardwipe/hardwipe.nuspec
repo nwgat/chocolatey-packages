@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>Hardwipe</id>
+    <title>Hardwipe (Latest)</title>
+    <version>5.0.7</version>
+    <authors>Big Angry Dog</authors>
+    <owners>nwgat</owners>
+    <summary>The Ultimate Data Sanitization Security Toolset</summary>
+    <description>Secure data erasure on-demand</description>
+    <projectUrl>http://www.hardwipe.com/</projectUrl>
+    <packageSourceUrl>http://www.hardwipe.com/download/hwipe_setup.msi</packageSourceUrl>
+    <docsUrl>http://www.hardwipe.com/user_guide/index.html</docsUrl>
+    <tags>hardwipe secure wipe</tags>
+    <copyright>All Rights Reserved</copyright>
+    <licenseUrl>http://www.hardwipe.com/eula.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>See http://www.hardwipe.com/version_history.html</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

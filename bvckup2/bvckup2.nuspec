@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>bvckup2</id>
+    <title>Bvckup2 (Latest)</title>
+    <version>74.12</version>
+    <authors>Pipemetrics SA</authors>
+    <owners>nwgat</owners>
+    <summary>Simple fast backup</summary>
+    <description>Select a pair of folders and Bvckup 2 will make sure that one stays an exact copy of the other. It is light, uncomplicated and really well designed. It is also incredibly fast.
+    </description>
+    <projectUrl>https://www.bvckup2.com/</projectUrl>
+    <packageSourceUrl>https://www.bvckup2.com/get</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl>https://www.bvckup2.com/support/forum/</docsUrl>
+    <mailingListUrl>https://www.bvckup2.com/support/forum/</mailingListUrl>
+    <bugTrackerUrl>https://www.bvckup2.com/support/forum/</bugTrackerUrl>-->
+    <tags>bvckup2 admin backup sync nas</tags>
+    <copyright>All Rights Reserved</copyright>
+    <licenseUrl>https://www.bvckup2.com/purchase/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://i.imgur.com/8yY8Jxe.png</iconUrl>-->
+    <releaseNotes>See https://www.bvckup2.com/support/forum/topic/584</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

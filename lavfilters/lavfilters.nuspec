@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>lavfilters</id>
+    <title>LAV Filters</title>
+    <version>0.65</version>
+    <authors>Nevcairiel</authors>
+    <owners>nwgat</owners>
+    <summary>Simple fast backup</summary>
+    <description>LAV Filters are a set of DirectShow filters based on the libavformat and libavcodec libraries from the ffmpeg project, which will allow you to play virtually any format in a DirectShow player.</description>
+    <projectUrl>https://github.com/Nevcairiel/LAVFilters</projectUrl>
+    <packageSourceUrl>https://github.com/Nevcairiel/LAVFilters/releases/tag/0.65</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl>https://github.com/Nevcairiel/LAVFilters</docsUrl>
+    <mailingListUrl>https://github.com/Nevcairiel/LAVFilters</mailingListUrl>
+    <bugTrackerUrl>https://github.com/Nevcairiel/LAVFilters</bugTrackerUrl>-->
+    <tags>windows filters codecs ffmpeg h264 h265 opus mp3 vorbis ffmpeg admin backup sync nas</tags>
+    <copyright>GPL</copyright>
+    <licenseUrl>https://github.com/Nevcairiel/LAVFilters/blob/master/COPYING/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.githubusercontent.com/Nevcairiel/LAVFilters/master/resources/blue.ico</iconUrl>-->
+    <releaseNotes>0.65.0 - 2015/04/21
+LAV Splitter
+
+NEW: Support for MKV subtitle Cues to show subtitles immediately after a seek
+NEW: Attachments and embedded cover art images are exported through the IDSMResourceBag interface
+Fixed: Improved demuxing of HEVC in MPEG-TS and increased the reliability of the SPS/PPS/VPS extraction
+Fixed: Demuxing Blu-rays/MPEG-TS where the first stream was not a video stream could result in broken timestamps
+Fixed: Seeking in MKVs which are currently being written is more reliable
+LAV Video
+
+Fixed: Improved HEVC DXVA2 decoding on a few samples
+Fixed: Playback of VFR MPEG-4 in AVI had wrong timestamps in 0.64
+Fixed: Improved handling of DVD subtitles without timestamps
+LAV Audio:
+
+NEW: Native DTS-HD decoding using libdcadec
+Changed: 5.1 audio prefers the speaker mask with side channels, to match recent specifications</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
