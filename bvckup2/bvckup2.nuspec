@@ -4,7 +4,7 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>bvckup2</id>
-    <title>Bvckup2 (Latest)</title>
+    <title>Bvckup2 (Trial)</title>
     <version>74.12</version>
     <authors>Pipemetrics SA</authors>
     <owners>nwgat</owners>
