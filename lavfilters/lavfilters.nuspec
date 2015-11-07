@@ -5,10 +5,10 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>lavfilters</id>
     <title>LAV Filters</title>
-    <version>0.65</version>
+    <version>0.66</version>
     <authors>Nevcairiel</authors>
     <owners>nwgat</owners>
-    <summary>Simple fast backup</summary>
+    <summary>Play any number of video and audio codecs in your favorite player</summary>
     <description>LAV Filters are a set of DirectShow filters based on the libavformat and libavcodec libraries from the ffmpeg project, which will allow you to play virtually any format in a DirectShow player.</description>
     <projectUrl>https://github.com/Nevcairiel/LAVFilters</projectUrl>
     <packageSourceUrl>https://github.com/Nevcairiel/LAVFilters/releases/tag/0.65</packageSourceUrl>
@@ -21,23 +21,24 @@
     <licenseUrl>https://github.com/Nevcairiel/LAVFilters/blob/master/COPYING/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>https://raw.githubusercontent.com/Nevcairiel/LAVFilters/master/resources/blue.ico</iconUrl>-->
-    <releaseNotes>0.65.0 - 2015/04/21
+    <releaseNotes>0.66.0 - 2015/09/22
 LAV Splitter
 
-NEW: Support for MKV subtitle Cues to show subtitles immediately after a seek
-NEW: Attachments and embedded cover art images are exported through the IDSMResourceBag interface
-Fixed: Improved demuxing of HEVC in MPEG-TS and increased the reliability of the SPS/PPS/VPS extraction
-Fixed: Demuxing Blu-rays/MPEG-TS where the first stream was not a video stream could result in broken timestamps
-Fixed: Seeking in MKVs which are currently being written is more reliable
+NEW: Added options to increase the queue size for increased buffering
+Changed: Switched ASF/WMV demuxing to a new demuxer from Libav
+Fixed: Improved seeking with MPEG-TS files which contain teletext streams
 LAV Video
 
-Fixed: Improved HEVC DXVA2 decoding on a few samples
-Fixed: Playback of VFR MPEG-4 in AVI had wrong timestamps in 0.64
-Fixed: Improved handling of DVD subtitles without timestamps
-LAV Audio:
+NEW: Support for DXVA2-Native decoding of HEVC 10-bit with EVR on supported GPUs
+Changed: 4K Video Decoding on AMD graphics card is now enabled (needs recent drivers to work properly)
+Changed: DXVA2-CB decoding uses less memory on NVIDIA graphics cards
+Fixed: H264 DXVA2 decoding failed when no SPS/PPS was available in the media type
+Fixed: Conversion of RGB48 to RGB32/24 did not properly use dithering
+Fixed: Improved handling of a few DVD menu quirks
+Fixed: Decoding 10-bit video with EVR could result in a black screen
+LAV Audio
 
-NEW: Native DTS-HD decoding using libdcadec
-Changed: 5.1 audio prefers the speaker mask with side channels, to match recent specifications</releaseNotes>
+Changed: 5.1 audio favors the "Side" 5.1 layout, which conforms to modern surround standards</releaseNotes>
     <!--<provides></provides>-->
   </metadata>
   <files>
