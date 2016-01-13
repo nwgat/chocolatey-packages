@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>s3put</id>
+    <title>s3put</title>
+    <version>2.1.1</version>
+    <authors>surma</authors>
+    <owners>nwgat</owners>
+    <summary>simple tool to upload or download from amazon s3 or google storage</summary>
+    <description>s3put is a really quick'n'dirty CLI app for [S3] and [GCS].
+
+Originally, it has been written during an S3 upload which was taking too long, because there are no tools which support multiple parallel uploads. s3put does. Later, the capability for getting buckets and copying them to the local disk was added.</description>
+    <projectUrl>https://github.com/surma/s3put</projectUrl>
+    <packageSourceUrl>https://github.com/surma/s3put</packageSourceUrl>
+    <docsUrl>https://github.com/surma/s3put</docsUrl>
+    <tags>s3put amazon s3 google storage upload download put get</tags>
+    <copyright>see link</copyright>
+    <licenseUrl>https://github.com/surma/s3put/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>See https://github.com/surma/s3put</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
