@@ -9,7 +9,34 @@
     <authors>OpenShot Studios LLC</authors>
     <owners>nwgat</owners>
     <summary>Open Source Video Editor</summary>
-    <description>Open Source Video Editor</description>
+    <description>OpenShot Video Editor is a free, open-source video editor for Linux licensed under the GPL version 3.0. 
+
+OpenShot can take your videos, photos, and music files and help you create the film you have always dreamed of. Easily add sub-titles, transitions, and effects, and then export your film to DVD, YouTube, Vimeo, Xbox 360, and many other common formats.
+
+Support for many video, audio, and image formats (based on FFmpeg )
+Gnome integration (drag and drop support)
+Unlimited tracks / layers
+Clip resizing, scaling, trimming, snapping, and cutting
+Video transitions with real-time previews
+Compositing, image overlays, watermarks
+Title templates, title creation, sub-titles
+3D Animated Titles
+SVG friendly, to create and include vector titles and credits
+Scrolling motion picture credits
+Solid color clips (including alpha compositing )
+Support for Rotoscoping / Image sequences
+Advanced Timeline (including Drag and drop, scrolling, panning, zooming, and snapping)
+Frame stepping (key-mappings: J, K, and L keys)
+Video encoding (based on FFmpeg )
+Key Frame animation
+Digital zooming of video clips
+Speed changes on clips (slow motion etc)
+Custom transition lumas and masks
+Audio mixing and editing
+Presets for key frame animations and layout
+Ken Burns effect (artistic panning over an image)
+Digital video effects , including brightness, gamma, hue, greyscale, chroma key (bluescreen / greenscreen) , and over 20 other video effects
+OpenShot provides extensive editing and compositing features, and has been designed as a practical tool for working with high-definition video including HDV and AVCHD .</description>
     <projectUrl>http://www.openshot.org</projectUrl>
     <packageSourceUrl>https://launchpad.net/openshot/</packageSourceUrl>
     <docsUrl>http://openshot.org/support/</docsUrl>
@@ -18,6 +45,7 @@
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://launchpad.net/openshot/2.0/2.0.6</releaseNotes>
+	<iconUrl>http://2.bp.blogspot.com/--nQcFRj-1OA/VN3QbBaxnQI/AAAAAAAAQ7w/m8ilfeWKfGc/s1600/openshot-2-logo-medium.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

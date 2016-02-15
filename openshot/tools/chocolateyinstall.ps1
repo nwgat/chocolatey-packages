@@ -1,4 +1,4 @@
-﻿$packageName = 'Package Name'
+﻿$packageName = 'openshot'
 $installerType = 'msi'
 $url = 'http://releases.openshot.org/windows/OpenShot+Video+Editor-2.0.6-win32.msi'
 $url64 = 'http://releases.openshot.org/windows/OpenShot+Video+Editor-2.0.6-win32.msi'
