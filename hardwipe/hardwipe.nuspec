@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>Hardwipe</id>
     <title>Hardwipe (Latest)</title>
-    <version>5.0.7</version>
+    <version>5.1.3</version>
     <authors>Big Angry Dog</authors>
     <owners>nwgat</owners>
     <summary>The Ultimate Data Sanitization Security Toolset</summary>
