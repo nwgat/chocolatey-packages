@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tinc</id>
+    <title>tinc</title>
+    <version>1.0.26</version>
+    <authors>Guus Sliepen</authors>
+    <owners>nwgat</owners>
+    <summary>Tinc is a Virtual Private Network (VPN) daemon.</summary>
+    <description>Tinc is a Virtual Private Network (VPN) daemon that uses tunneling and encryption to create
+a secure private network between hosts on the Internet.
+Because the tunnel appears to the IP level network code as a normal network device, there
+is no need to adapt any existing software. The encrypted tunnels allows VPN sites to share
+information with each other over the Internet without exposing any information to others.</description>
+    <projectUrl>http://www.tinc-vpn.org</projectUrl>
+    <packageSourceUrl>https://github.com/nwgat/chocolatey-packages/</packageSourceUrl>
+    <docsUrl>http://www.tinc-vpn.org/docs/</docsUrl>
+    <tags>vpn tunnel openvpn open source free fast encryption private internet</tags>
+    <copyright>All Rights Reserved</copyright>
+	<iconUrl>http://www.tinc-vpn.org/images/tinclogo.png</iconUrl>
+    <licenseUrl>https://github.com/gsliepen/tinc/blob/master/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Version 1.0.26 released.
+
+Tinc now forces glibc to reload /etc/resolv.conf for every hostname lookup.
+Fixed —logfile without a filename on Windows.
+Ensure tinc can be compiled when using musl libc.
+Thanks to Jo-Philipp Wich for his contribution to this version of tinc.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
