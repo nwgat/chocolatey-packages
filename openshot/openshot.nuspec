@@ -38,7 +38,7 @@ Ken Burns effect (artistic panning over an image)
 Digital video effects , including brightness, gamma, hue, greyscale, chroma key (bluescreen / greenscreen) , and over 20 other video effects
 OpenShot provides extensive editing and compositing features, and has been designed as a practical tool for working with high-definition video including HDV and AVCHD .</description>
     <projectUrl>http://www.openshot.org</projectUrl>
-    <packageSourceUrl>https://launchpad.net/openshot/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/nwgat/chocolatey-packages/</packageSourceUrl>
     <docsUrl>http://openshot.org/support/</docsUrl>
     <tags>video editor free open source mkv mp4 ogg vorbis opus h264 x264 h265 x265 VP8 VP9 webm matroska mkv</tags>
     <copyright>All Rights Reserved</copyright>
