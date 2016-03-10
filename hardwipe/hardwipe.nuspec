@@ -18,7 +18,7 @@
     <licenseUrl>http://www.hardwipe.com/eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>See http://www.hardwipe.com/version_history.html</releaseNotes>
-    <iconurl>http://www.hardwipe.com/images/header_logo.png</iconurl>
+    <iconUrl>http://www.hardwipe.com/images/header_logo.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
