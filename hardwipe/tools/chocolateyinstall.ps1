@@ -1,4 +1,4 @@
-﻿$packageName = 'Package Name'
+﻿$packageName = 'Hardwipe'
 $installerType = 'msi'
 $url = 'http://www.hardwipe.com/download/hwipe_setup.msi'
 $silentArgs = '/quiet'
