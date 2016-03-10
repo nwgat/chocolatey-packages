@@ -4,7 +4,7 @@
   <metadata>
     <id>tinc</id>
     <title>tinc</title>
-    <version>1.1pre11</version>
+    <version>1.1-pre11</version>
     <authors>Guus Sliepen</authors>
     <owners>nwgat</owners>
     <summary>Tinc is a Virtual Private Network (VPN) daemon.</summary>
