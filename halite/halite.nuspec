@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>Halite</id>
+    <title>Halite</title>
+    <version>2.0.6</version>
+    <authors>Eóin O'Callaghan</authors>
+    <owners>nwgat</owners>
+    <summary>A Free Open-Source BitTorrent client</summary>
+    <description>
+Developer: Eóin O'Callaghan
+Halite (named after the mineral) is a BitTorrent client based on Arvid Norberg's excellent libtorrent library from Rasterbar Software. The program also relies on the Boost libraries.
+
+Features:
+While still at an early state of development Halite is a functional BitTorrent client. So far its list of features is pretty standard but that is because I want to ensure it does the basic stuff well.
+
+That said, it supports:
+
+File selection and/or file priority specifications.
+'Managed torrent' queue system.
+Disk cache support.
+Trackerless torrents (using the Mainline kademlia DHT protocol).
+Magnet URIs.
+Super-seeding.
+uTorrent style multi-tracker announcement.
+IP filtering with eMule style ipfilter.dat import.
+Protocol Encryption support.
+Translations of the UI into a number of languages through the help of volunteers. (if you wish to help with a translation then please do)
+Minimise to tray with transfer rate summary.
+Full Unicode support through UTF-8 and native Windows wide-char strings.
+Login support where tracker requires it.
+Ability to edit trackers specified in the torrent.
+Transfer rate and connection limits both global and per-torrent.
+Torrent file creation.
+Port randomisation and forwarding (UnPlug and Play or NAT-PMP)
+Compatible with UAC.
+Shutdown scheduler.
+Webseeds
+Code Repository: https://github.com/Eoinocal/Halite
+
+Requirements: Vista and higher</description>
+    <projectUrl>http://www.binarynotions.com/halite-bittorrent-client</projectUrl>
+    <packageSourceUrl>https://github.com/nwgat/chocolatey-packages/</packageSourceUrl>
+    <docsUrl>http://www.binarynotions.com/halite-bittorrent-client</docsUrl>
+    <tags>torrent magnet client dht download</tags>
+    <copyright>All Rights Reserved</copyright>
+    <licenseUrl>https://github.com/Eoinocal/Halite/blob/master/LICENSE_1_0.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>https://github.com/Eoinocal/Halite/releases</releaseNotes>
+	<iconUrl>https://raw.githubusercontent.com/Eoinocal/Halite/master/res/Halite.ico</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
