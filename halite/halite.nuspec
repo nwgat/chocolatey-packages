@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>Halite</id>
     <title>Halite</title>
-    <version>2.0.6</version>
+    <version>4.0.4</version>
     <authors>Eóin O'Callaghan</authors>
     <owners>nwgat</owners>
     <summary>A Free Open-Source BitTorrent client</summary>
