@@ -1,7 +1,7 @@
 ﻿$packageName = 'openshot'
 $installerType = 'msi'
-$url = 'http://releases.openshot.org/windows/OpenShot+Video+Editor-2.0.6-win32.msi'
-$url64 = 'http://releases.openshot.org/windows/OpenShot+Video+Editor-2.0.6-win32.msi'
+$url = 'http://releases.openshot.org/windows/OpenShot-2.0.7.msi'
+$url64 = 'http://releases.openshot.org/windows/OpenShot-2.0.7.msi'
 $silentArgs = '/quiet /norestart'
 $validExitCodes = @(0,3010)
 
