@@ -46,6 +46,7 @@ OpenShot provides extensive editing and compositing features, and has been desig
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>https://launchpad.net/openshot/2.0/2.0.6</releaseNotes>
 	<iconUrl>http://2.bp.blogspot.com/--nQcFRj-1OA/VN3QbBaxnQI/AAAAAAAAQ7w/m8ilfeWKfGc/s1600/openshot-2-logo-medium.png</iconUrl>
+	<admin>true</admin>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
