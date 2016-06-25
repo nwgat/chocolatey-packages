@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>lftp</id>
     <title>lftp</title>
-    <version>4.6.5</version>
+    <version>4.6.6</version>
     <authors>Alexander V. Lukyanov</authors>
     <owners>nwgat</owners>
     <summary>LFTP is a sophisticated file transfer program with command line interface</summary>
