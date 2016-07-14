@@ -19,7 +19,7 @@ Passkey for DVD can also rip DVD to hard disk, and allows you to use any softwar
     <licenseUrl>http://www.dvdfab.cn/passkey-for-blu-ray.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes>http://www.dvdfab.cn/passkey-for-blu-ray.htm</releaseNotes>
-	<iconUrl>https://raw.githubusercontent.com/Eoinocal/Halite/master/res/Halite.ico</iconUrl>
+	<iconUrl>https://raw.githubusercontent.com/nwgat/chocolatey-packages/master/passkey/passkey-icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
