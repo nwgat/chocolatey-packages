@@ -11,15 +11,14 @@
     <summary>Passkey for DVD is a Windows-based driver that works on-the-fly to unprotect encrypted DVD discs.</summary>
     <description>Passkey for DVD is a Windows-based driver that works on-the-fly to unprotect encrypted DVD discs. It can remove all known DVD copy protections and region codes just in seconds to help you watch any DVD movie with no limitation.
 Passkey for DVD can also rip DVD to hard disk, and allows you to use any software, including DVDFab DVD Copy and DVD Ripper, to access unencrypted DVD contents to copy, burn, clone them, and so on.</description>
-    <projectUrl>http://www.binarynotions.com/halite-bittorrent-client</projectUrl>
+    <projectUrl>http://www.dvdfab.cn/passkey-for-blu-ray.htm</projectUrl>
     <packageSourceUrl>https://github.com/nwgat/chocolatey-packages/</packageSourceUrl>
-    <docsUrl>http://www.binarynotions.com/halite-bittorrent-client</docsUrl>
-    <tags></tags>
+    <docsUrl>http://www.dvdfab.cn/passkey-for-blu-ray.htm</docsUrl>
+    <tags>anydvd passkey dvd blu-ray</tags>
     <copyright>All Rights Reserved</copyright>
-    <licenseUrl>http://www.dvdfab.cn/passkey-for-blu-ray.htm</licenseUrl>
+    <licenseUrl>http://us.dvdfab.cn/terms-of-use.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>http://www.dvdfab.cn/passkey-for-blu-ray.htm</releaseNotes>
-	<iconUrl>https://raw.githubusercontent.com/nwgat/chocolatey-packages/master/passkey/passkey-icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/nwgat/chocolatey-packages/master/passkey/passkey-icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
