@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>rclone</id>
+    <version>1.32</version>
+    <title>rclone</title>
+    <authors>ncw</authors>
+    <owners>ncw</owners>
+    <licenseUrl>https://github.com/ncw/rclone/blob/master/COPYING</licenseUrl>
+    <projectUrl>http://rclone.org/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Sync files to and from Google Drive, S3, Swift, Cloudfiles, Dropbox and Google Cloud Storage</description>
+    <summary>rclone - rsync for cloud storage</summary>
+    <releaseNotes />
+    <copyright>Copyright (C) 2012 by Nick Craig-Wood http://www.craig-wood.com/nick/</copyright>
+    <tags>rclone sync cloud dropbox s3 b2 google drive OneDrive</tags>
+  </metadata>
+</package>
