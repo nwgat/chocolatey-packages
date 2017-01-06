@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>OpenShot</id>
     <title>Openshot</title>
-    <version>2.1.0</version>
+    <version>2.2.0</version>
     <authors>OpenShot Studios LLC</authors>
     <owners>nwgat</owners>
     <summary>Open Source Video Editor</summary>
@@ -44,7 +44,7 @@ OpenShot provides extensive editing and compositing features, and has been desig
     <copyright>All Rights Reserved</copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>https://launchpad.net/openshot/2.0/2.0.6</releaseNotes>
+    <releaseNotes>http://www.openshotvideo.com/2016/12/openshot-22-released-4k-video-editing.html</releaseNotes>
 	<iconUrl>http://2.bp.blogspot.com/--nQcFRj-1OA/VN3QbBaxnQI/AAAAAAAAQ7w/m8ilfeWKfGc/s1600/openshot-2-logo-medium.png</iconUrl>
   </metadata>
   <files>

@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>lftp</id>
     <title>lftp</title>
-    <version>4.6.6</version>
+    <version>4.7.5</version>
     <authors>Alexander V. Lukyanov</authors>
     <owners>nwgat</owners>
     <summary>LFTP is a sophisticated file transfer program with command line interface</summary>
@@ -24,16 +24,19 @@ Every operation in lftp is reliable, that is any non-fatal error is handled and 
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!--<iconUrl>http://lftp.yar.ru/lftp1.png</iconUrl>-->
-    <releaseNotes>Version 4.6.5 - 2015-12-10
-sftp: fixed handling of out-of-order replies.
-fixed futex_wait issue in SIGCHLD handler.
-ftp: fixed ls freezing with unstable server connection.
-torrent: show more correct ETA on the status line.
-fixed gnutls priority string.
-mirror: fixed excessive stack usage on large directories.
-documented some hard to fix bugs.
-improved man page on open command and cmd:prompt setting.
-translations updated (zh_TW).</releaseNotes>
+    <releaseNotes>Version 4.7.5 - 2017-01-01
+
+http: recognize apache listing with ISO date/time.
+ipv6: ignore link-local address without a scope.
+new settings log:prefix-{recv,send,note,error}.
+documentation and help improvements.
+mirror: fixed recursion mode initialization.
+mirror: fixed assertion failure when creating remote symlinks.
+mirror: show chmod errors when verbose.
+fixed debug command to switch output to stderr if no output file given.
+ftp: add "site mkdir" support for "mkdir -p".
+ftp: fixed a long delay in "mode z" with ProFTPD.
+ftp: fixed a failed assertion in "mode z".</releaseNotes>
     <!--<provides></provides>-->
   </metadata>
   <files>

@@ -5,19 +5,19 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>crimson</id>
     <title>Radeon Software Crimson Edition</title>
-    <version>16.7.1</version>
+    <version>16.12.2</version>
     <authors>AMD</authors>
     <owners>nwgat</owners>
     <summary>AMD Crimson driver for Radeon graphics cards</summary>
-    <description>see http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Crimson-Edition-16.7.1-Release-Notes.aspx</description>
-    <projectUrl>http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Crimson-Edition-16.7.1-Release-Notes.aspx</projectUrl>
+    <description></description>
+    <projectUrl>http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Crimson-Edition-16.12.2-Release-Notes.aspx</projectUrl>
     <packageSourceUrl>https://github.com/nwgat/chocolatey-packages/</packageSourceUrl>
-    <docsUrl>http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Crimson-Edition-16.7.1-Release-Notes.aspx</docsUrl>
+    <docsUrl>http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Crimson-Edition-16.12.2-Release-Notes.aspx</docsUrl>
     <tags>amd radeon</tags>
     <copyright>All Rights Reserved</copyright>
-    <licenseUrl>http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Crimson-Edition-16.7.1-Release-Notes.aspx</licenseUrl>
+    <licenseUrl>http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Crimson-Edition-16.12.2-Release-Notes.aspx</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Crimson-Edition-16.7.1-Release-Notes.aspx</releaseNotes>
+    <releaseNotes>http://support.amd.com/en-us/kb-articles/Pages/Radeon-Software-Crimson-Edition-16.12.2-Release-Notes.aspx</releaseNotes>
 	<iconUrl>http://cdn.nwgat.ninja/misc/crimsonbranding.ico</iconUrl>
   </metadata>
   <files>
