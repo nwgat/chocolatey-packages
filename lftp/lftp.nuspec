@@ -9,21 +9,21 @@
     <authors>Alexander V. Lukyanov</authors>
     <owners>nwgat</owners>
     <summary>LFTP is a sophisticated file transfer program with command line interface</summary>
-    <description>LFTP is a sophisticated file transfer program with command line interface. It supports FTP, HTTP, FISH, SFTP, HTTPS and FTPS protocols. GNU Readline library is used for input.
+    <description>PLEASE NOTE: these binaries are unofffical windows builds from https://nwgat.ninja/lftp-for-windows/
+	
+	LFTP is a sophisticated file transfer program with command line interface. It supports FTP, HTTP, FISH, SFTP, HTTPS and FTPS protocols. GNU Readline library is used for input.
 Every operation in lftp is reliable, that is any non-fatal error is handled and the operation is retried automatically. So if downloading breaks, it will be restarted from the point automatically. Even if ftp server does not support REST command, lftp will try to retrieve the file from the very beginning until the file is transferred completely. This is useful for dynamic-ip machines which change their IP addresses quite often, and for sites with very bad internet connectivity. 
     </description>
     <projectUrl>http://lftp.yar.ru/</projectUrl>
-    <packageSourceUrl>http://lftp.nwgat.ninja/lftp-4.6.3a/lftp-4.6.3a.win32-openssl.7z</packageSourceUrl>
-    <!--<projectSourceUrl></projectSourceUrl>
-
-    <docsUrl></docsUrl>
+    <projectSourceUrl>https://github.com/nwgat/chocolatey-packages</projectSourceUrl>
+    <docsUrl>http://lftp.tech/lftp-man.html</docsUrl>
     <mailingListUrl>http://lftp.yar.ru/list.html</mailingListUrl>
-    <bugTrackerUrl>https://github.com/lavv17/lftp/issues</bugTrackerUrl>-->
+    <bugTrackerUrl>https://github.com/lavv17/lftp/issues</bugTrackerUrl>
     <tags>lftp ftp sftp ssh fish ftps</tags>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>http://lftp.yar.ru/lftp1.png</iconUrl>-->
+    <iconUrl>http://lftp.yar.ru/lftp1.png</iconUrl>
     <releaseNotes>Version 4.7.5 - 2017-01-01
 
 http: recognize apache listing with ISO date/time.
@@ -37,7 +37,6 @@ fixed debug command to switch output to stderr if no output file given.
 ftp: add "site mkdir" support for "mkdir -p".
 ftp: fixed a long delay in "mode z" with ProFTPD.
 ftp: fixed a failed assertion in "mode z".</releaseNotes>
-    <!--<provides></provides>-->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
