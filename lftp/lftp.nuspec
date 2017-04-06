@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>lftp</id>
     <title>lftp</title>
-    <version>4.7.5</version>
+    <version>4.7.7</version>
     <authors>Alexander V. Lukyanov</authors>
     <owners>nwgat</owners>
     <summary>LFTP is a sophisticated file transfer program with command line interface</summary>
@@ -24,19 +24,13 @@ Every operation in lftp is reliable, that is any non-fatal error is handled and 
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://lftp.yar.ru/lftp1.png</iconUrl>
-    <releaseNotes>Version 4.7.5 - 2017-01-01
+    <releaseNotes>Version 4.7.7 - 2017-03-07
 
-http: recognize apache listing with ISO date/time.
-ipv6: ignore link-local address without a scope.
-new settings log:prefix-{recv,send,note,error}.
-documentation and help improvements.
-mirror: fixed recursion mode initialization.
-mirror: fixed assertion failure when creating remote symlinks.
-mirror: show chmod errors when verbose.
-fixed debug command to switch output to stderr if no output file given.
-ftp: add "site mkdir" support for "mkdir -p".
-ftp: fixed a long delay in "mode z" with ProFTPD.
-ftp: fixed a failed assertion in "mode z".</releaseNotes>
+mirror: fixed coredump when source directory does not exist.
+mirror: don't create target directory if can't enter to the source directory.
+ftp: fixed a rare hang when a NOOP was sent between "transfer ok" reply and EOF on data socket.
+fixed xfer:log setting (compatibility alias).
+ftp: don't use EPSV with a proxy.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

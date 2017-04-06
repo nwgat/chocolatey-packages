@@ -1,7 +1,7 @@
 ﻿$packageName = 'openshot'
 $installerType = 'exe'
-$url = 'https://github.com/OpenShot/openshot-qt/releases/download/v2.2.0/OpenShot-v2.2.0-x86_64.exe'
-$checksum = 'DAD52E68B84687C9CD1F6B9C9D72EE86'
+$url = 'http://github.com/OpenShot/openshot-qt/releases/download/v2.3.1/OpenShot-v2.3.1-x86_64.exe'
+$checksum = '1B62B66CBC0A1153BFDDBA8A2F6A8BDD'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0,3010)
 
