@@ -4,25 +4,31 @@
   <metadata>
     <id>tinc</id>
     <title>tinc</title>
-    <version>1.1-pre14</version>
+    <version>1.1-pre17</version>
     <authors>Guus Sliepen</authors>
-    <owners>nwgat</owners>
+    <owners>matoro</owners>
     <summary>Tinc is a Virtual Private Network (VPN) daemon.</summary>
     <description>Tinc is a Virtual Private Network (VPN) daemon that uses tunneling and encryption to create
 a secure private network between hosts on the Internet.
 Because the tunnel appears to the IP level network code as a normal network device, there
 is no need to adapt any existing software. The encrypted tunnels allows VPN sites to share
 information with each other over the Internet without exposing any information to others.</description>
-    <projectUrl>http://www.tinc-vpn.org</projectUrl>
-    <packageSourceUrl>https://github.com/nwgat/chocolatey-packages/</packageSourceUrl>
-    <docsUrl>http://www.tinc-vpn.org/docs/</docsUrl>
+    <projectUrl>https://www.tinc-vpn.org</projectUrl>
+    <packageSourceUrl>https://github.com/matoro/chocolatey-packages/</packageSourceUrl>
+    <docsUrl>https://www.tinc-vpn.org/docs/</docsUrl>
     <tags>vpn tunnel openvpn open source free fast encryption private internet</tags>
     <copyright>All Rights Reserved</copyright>
 	<iconUrl>http://www.tinc-vpn.org/images/tinclogo.png</iconUrl>
     <licenseUrl>https://github.com/gsliepen/tinc/blob/master/COPYING</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Version 1.1pre14 released.
-Add tinc.service back.
+    <releaseNotes>Version 1.1pre17 released.
+* Prevent oracle attacks in the legacy protocol (CVE-2018-16737,
+  CVE-2018-16738).
+* Prevent a MITM from forcing a NULL cipher for UDP in the legacy protocol
+  (CVE-2018-16758).
+* AutoConnect is now enabled by default.
+* Per-node network traffic statistics are now shown in the output of "info" and
+"dump nodes" commands.
 </releaseNotes>
   </metadata>
   <files>
