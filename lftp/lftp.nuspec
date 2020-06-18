@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>lftp</id>
     <title>lftp</title>
-    <version>4.8.0</version>
+    <version>4.9.1</version>
     <authors>Alexander V. Lukyanov</authors>
     <owners>nwgat</owners>
     <summary>LFTP is a sophisticated file transfer program with command line interface</summary>
@@ -24,23 +24,13 @@ Every operation in lftp is reliable, that is any non-fatal error is handled and 
     <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>http://lftp.yar.ru/lftp1.png</iconUrl>
-    <releaseNotes>Version 4.8.0 - 2017-07-10
+    <releaseNotes>Version 4.9.1 - 2020-01-15
 
-mirror: improved performance of --scan-all-first for big trees.
-mirror: new --flat option to flatten the target directory structure.
-mmv: new command for file moving; redirect mv to mmv in certain cases.
-fixed compilation with newer openssl (1.1.0 and later).
-du: allow multiple --exclude options to be combined.
-new setting cmd:nullglob for `glob' command prefix.
-http: use proppatch to set last-modified property.
-new settings net:connection-limit-timer and ftp:too-many-re.
-ftp: dynamically ajust connection limit.
-ftp: fixed core dump on LINK/SYMLINK when the command is not supported.
-get1: fixed -o option.
-sftp,fish: connect-program setting is now passed to the shell for execution.
-get/mget/put/mput: add -P option for parallel transfers and long options.
-appimage: new make target for making an AppImage file.
-fixed "local glob".</releaseNotes>
+get1: fixed creating the target directory.
+get1: fixed renaming the temp file.
+fixed a coredump on startup when IPv6 is not supported or configured.
+fixed build with --disable-ipv6.
+fixed build with Sun Studio.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
