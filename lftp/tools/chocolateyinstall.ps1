@@ -8,7 +8,7 @@ $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 Install-ChocolateyZipPackage "$packageName" "$url" "$toolsDir" "$url64" $checksum
 
 #Create .ignore files so chocolatey does not shim the support programs
-$filestoignore = Get-ChildItem $toolsDir -include *.exe -exclude lftp.exe
+$filestoignore = Get-ChildItem $toolsDir -include *.exe -exclude lftp.exe -recurse
 
 foreach ($file in $filestoignore) {
     New-Item "$file.ignore" -type file -force | Out-Null
