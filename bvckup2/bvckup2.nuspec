@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>bvckup2</id>
     <title>Bvckup2 (Trial)</title>
-    <version>74.12</version>
+    <version>82.5</version>
     <authors>Pipemetrics SA</authors>
     <owners>nwgat</owners>
     <summary>Simple fast backup</summary>
@@ -13,10 +13,10 @@
     </description>
     <projectUrl>https://www.bvckup2.com/</projectUrl>
     <packageSourceUrl>https://www.bvckup2.com/get</packageSourceUrl>
-    <!--<projectSourceUrl></projectSourceUrl>
+    <projectSourceUrl></projectSourceUrl>
     <docsUrl>https://www.bvckup2.com/support/forum/</docsUrl>
     <mailingListUrl>https://www.bvckup2.com/support/forum/</mailingListUrl>
-    <bugTrackerUrl>https://www.bvckup2.com/support/forum/</bugTrackerUrl>-->
+    <bugTrackerUrl>https://www.bvckup2.com/support/forum/</bugTrackerUrl>
     <tags>bvckup2 admin backup sync nas</tags>
     <copyright>All Rights Reserved</copyright>
     <licenseUrl>https://www.bvckup2.com/purchase/</licenseUrl>
